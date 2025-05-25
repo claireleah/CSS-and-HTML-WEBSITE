@@ -1,0 +1,187 @@
+header{
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(23, 9, 1);
+}
+
+h1 {
+    color: white;
+    font-family: time;
+}
+
+
+/* .banner{
+    position: relative;   
+} */
+
+.banner {
+    padding: 10px;
+    background-image: url("img/image6.png");
+    background-size: cover;
+    background-position: center;
+    width: 96%;
+    margin: 120px auto 0 auto;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.banner .Welcome{
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    padding: 10px;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.Order{
+    color:rgb(23, 9, 1);
+
+
+}
+span{
+    font-size: 90px;
+    
+}
+
+nav{
+  background-color: #F4F4F4;
+  padding: 20px;
+  position: sticky;
+  top: 120px;
+  width: 100%;
+  
+
+}
+
+li{
+      display: inline-block;
+      width: 20%;
+      font-size: 20px;
+}
+
+ul{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+section{
+    max-width: 100%;
+    width: 979px;
+    margin: 0px;
+    padding: 0 40px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.Perfume{
+    
+    margin: 80px 0;
+    
+}
+
+/* article{
+    font-size: 35px;
+    text-align:center;
+} */
+
+section p{
+    font-size: 35px;
+    text-align: center;
+}
+
+form{
+    border:4px solid #F4F4F4;
+    margin: 30px;
+    padding: 20px;
+}
+
+form input,
+form label{
+  margin-bottom: 15px;   
+}
+
+footer{
+        background-color:rgb(23, 9, 1);
+        color: white;
+        width: 100%;
+        padding: 30px;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        
+
+}
+
+li:hover{
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width:580px){
+    li{
+        display: block;
+        
+    }
+
+    article{
+    font-size: 25%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+
+
+span{
+    font-size: 60px;
+    
+}
+
+.img1{
+    width: 80%;
+    height: 80%;
+
+
+}
+
+.img2{
+    width: 80%;
+    height: 80%;
+
+
+}
+
+.img3{
+    width: 80%;
+    height: 80%;
+
+
+}
+
+}
+
